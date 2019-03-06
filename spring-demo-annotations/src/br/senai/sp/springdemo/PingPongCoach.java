@@ -3,11 +3,11 @@ package br.senai.sp.springdemo;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TennisCoach implements Coach {
+public class PingPongCoach implements Coach {
 
 	@Override
 	public String getDailyWorkout() {
-		return "Practice your backhand volley";
+		return "Practice how to put the ball on the left side.";
 	}
 
 }
